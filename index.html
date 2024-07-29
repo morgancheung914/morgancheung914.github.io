@@ -3,86 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Cheung Ho Lam Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Georgia', serif;
+            background-color: #fff;
+            color: #000;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            padding: 20px;
+            line-height: 1.6;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #000;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
+        h1, h2 {
+            color: #8B4513; /* Dark brown */
         }
-        header a, footer a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header ul li {
-            float: right;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        footer {
-            background: #333;
-            color: #fff;
+        .header {
             text-align: center;
-            padding: 30px;
-            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #8B4513;
+            padding-bottom: 5px;
+        }
+        .section p, .section ul {
+            margin: 5px 0;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        a {
+            color: #8B4513;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>My Resume</h1>
+    <div class="container">
+        <div class="header">
+            <h1>Cheung Ho Lam, Morgan</h1>
+            <p>+852 5116 7650 | <a href="mailto:morgancheung914@gmail.com">morgancheung914@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/morgan-cheung-337b57244/">LinkedIn</a> | <a href="https://github.com/morgancheung914">GitHub</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Objective</h2>
+            <p>Aspiring Machine Learning engineer and continuous learner, seeking an internship opportunity to apply my skills and interests in Machine Learning and Data Science to real-world challenges of the field.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>The Chinese University of Hong Kong</strong> | Sep 2021 – July 2025 (Expected)</p>
+            <p>B.Eng in Artificial Intelligence: Systems and Technologies</p>
             <ul>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li>CGPA: 3.53 / 4.00, MAJOR GPA: 3.50 / 4.00</li>
+                <li>Entry with Academic Scholarship from the Faculty of Engineering, CUHK</li>
+                <li>Related Courses: Fundamentals of AI, Fundamentals of Machine Learning, Design and Analysis of Algorithms, Data Structures, Introduction to Computer Systems, Numerical Optimization, Digital Image Processing, Databases</li>
+            </ul>
+            <p><strong>Wah Yan College, Kowloon</strong> | Sep 2015 – July 2021</p>
+            <ul>
+                <li>5* in M1 (Calculus and Statistics), Physics, Chemistry, English and Music, 5 in Mathematics</li>
+                <li>Outstanding Student of the Junior Secondary, Yau Tsim Mong District Outstanding Student Award Scheme 2018</li>
             </ul>
         </div>
-    </header>
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Brief description about yourself.</p>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <p>Details about your work experience.</p>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <p>Details about your educational background.</p>
-        </section>
-        <section id="skills">
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Pantheon Lab | AI Engineer Intern</strong> | June 2024 - Present</p>
+            <ul>
+                <li>Benchmarked text summarization abilities of state-of-the-art Cantonese Large Language Models</li>
+                <li>Created chatbots for customer service applications using Dialogflow</li>
+            </ul>
+            <p><strong>Smartage Intelligence Limited | Data Science Intern</strong> | Dec 2023 – Feb 2024</p>
+            <ul>
+                <li>Implemented an LSTM-based dementia prediction model for the elderly utilizing Smart IoT sensor information</li>
+                <li>Investigated over 15 research entries conducted on the correlation of activity patterns and risk of dementia in the elderly</li>
+                <li>Collaborated with 10 programmers across various sections of the smart-home remote nursing system pipeline, including IoT sensing and data preprocessing</li>
+            </ul>
+            <p><strong>Hong Kong Productivity Council | Summer Intern</strong> | June 2022 - Aug 2022</p>
+            <ul>
+                <li>Utilized AI and Computer Vision to identify and analyze security vulnerabilities from phishing websites, in 5 different web browsers</li>
+                <li>Authored informative blog posts for the security team, focusing on the intersection of AI and cybersecurity, read by over 7000 viewers</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Selected Projects</h2>
+            <ul>
+                <li>Image Classification on CIFAR-10 using VGG-16 CNN achieving accuracy 91% (2024)</li>
+                <li>Vocal music accompaniment generation using LSTM and Neural Network (2023)</li>
+                <li>Reinforcement Q-learning on a self-developed game (2022)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Extracurricular Activities</h2>
+            <p><strong>32nd Anniversary Celebration of Faculty of Engineering, CUHK</strong> | Oct 2023 - March 2024</p>
+            <p>Vice Chairman, Division of Publicity and Design</p>
+            <p><strong>Executive Committee, Artificial Intelligence Society, CUHK</strong></p>
+            <p>Financial Secretary (2022-2023), Publicity Secretary (2023-2024) | Feb 2022 - Feb 2024</p>
+        </div>
+
+        <div class="section">
             <h2>Skills</h2>
-            <p>List of your skills.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Your contact information.</p>
-        </section>
+            <p>Python (libraries and frameworks including Tensorflow, Pytorch, Scikit-learn, Numpy, Pandas, Hydra, Hugging Face, Langchain), C, CUDA, Dart, SQL, Oracle SQL, MATLAB, Java, Git</p>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <p>English, Cantonese, Mandarin (Fluent), French (Novice)</p>
+        </div>
+
+        <div class="section">
+            <p><a href="https://www.linkedin.com/in/morgan-cheung-337b57244/">LinkedIn</a> | <a href="https://github.com/morgancheung914">GitHub</a></p>
+        </div>
     </div>
-    <footer>
-        <p>&copy; 2024 My Resume. All rights reserved.</p>
-    </footer>
 </body>
 </html>
